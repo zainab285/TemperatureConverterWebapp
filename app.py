@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request
 
 app = Flask(__name__)
+print("❇️  Starting Flask app on Render...")
 
 def convert_temperature(temp, from_scale, to_scale):
     # Convert input temperature to Celsius first
